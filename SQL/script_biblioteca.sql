@@ -61,3 +61,25 @@ create table if not exists emprestimo(
 ALTER TABLE enderecos
 CHANGE COLUMN id_endero 
 id_endereco int;
+
+#criação das chaves estrangeiras
+
+alter table editora 
+add foreign key (id_endereco_fk)
+references enderecos(id_endereco);
+
+alter table livros 
+add foreign key (id_autores_fk)
+references autores(id_autores);
+
+alter table livros 
+add foreign key (id_editora_fk)
+references editora(id_editora);
+
+alter table emprestimo 
+add foreign key (id_livro_fk)
+references livros(id_livro);
+
+alter table emprestimo
+add foreign key (id_usuario_fk)
+references usuarios(id_usuario);
