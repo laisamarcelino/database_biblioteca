@@ -127,7 +127,7 @@ values ('João Silva', '12345678900', '1990-05-15', 'joao.silva@example.com', 's
        ('Lucas Pereira', '99988877766', '1998-07-05', 'lucas.pereira@example.com', 'senha8yz'),
        ('Julia Rodrigues', '44455566677', '1993-12-30', 'julia.rodrigues@example.com', 'senha345'),
        ('Rafael Almeida', '22233344455', '1991-09-18', 'rafael.almeida@example.com', 'senha543'),
-       ('Rafaela Lima', '12547815687', '1992-10-15', 'rafaela.lima@example.com', 'senha883');
+       ('Joana Lima', '12355599988', '1980-05-15', 'joanaLima@example.com', 'senha883');
 
 insert into emprestimo (data_emprestimo, data_devolucao, id_livro_fk, id_usuario_fk)
 values  ('2023-07-29', '2023-08-10', 1, 1),
