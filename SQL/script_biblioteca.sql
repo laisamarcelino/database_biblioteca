@@ -1,6 +1,8 @@
+#criaçao do banco de dados
 create database if not exists biblioteca;
 use biblioteca;
 
+#criaçao das tabelas
 create table if not exists enderecos(
 	id_endero int unique primary key not null,
     cidade varchar(45),
@@ -54,3 +56,8 @@ create table if not exists emprestimo(
     id_usuario_fk int
 );
 
+#correção do nome da coluna
+
+ALTER TABLE enderecos
+CHANGE COLUMN id_endero 
+id_endereco int;
