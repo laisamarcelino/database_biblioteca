@@ -77,3 +77,15 @@ references livros(id_livro);
 alter table emprestimo
 add foreign key (id_usuario_fk)
 references usuarios(id_usuario);
+
+
+#inserção de valores nas tabelas
+
+insert into enderecos (cidade, uf, rua, cep, numero, complemento)
+values ('São Paulo', 'SP', 'Rua das Letras', '01234567', '1234', 'Sala 10'),
+       ('Rio de Janeiro', 'RJ', 'Avenida do Português', '20000123', '567', 'Sala 101'),
+       ('Belo Horizonte', 'MG', 'Rua dos Livros', '30000456', '789', 'Conjunto C'),
+       ('Porto Alegre', 'RS', 'Praça da Cultura', '90000789', '321', 'Andar 5'),
+       ('Salvador', 'BA', 'Avenida dos Escritores', '40000987', '1234', 'Andar 6'),
+       ('Fortaleza', 'CE', 'Travessa dos Poetas', '60000543', '4321', 'Conjunto B'),
+       ('Recife', 'PE', 'Alameda dos Autores', '50000321', '987', 'Bloco A');
