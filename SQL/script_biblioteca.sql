@@ -2,7 +2,8 @@
 create database if not exists biblioteca;
 use biblioteca;
 
-#criaçao das tabelas
+#criaçao das tabelas conforme modelagem do diagrama
+
 create table if not exists enderecos(
 	id_endereco int unique primary key not null auto_increment,
     cidade varchar(45),
@@ -80,6 +81,8 @@ references usuarios(id_usuario);
 
 
 #inserção de valores nas tabelas
+#a ordem de população das tabelas foi escolhida de modo os dados correspondentes já existam na tabela referenciada
+#a maioria das informações são fictícias
 
 insert into enderecos (cidade, uf, rua, cep, numero, complemento)
 values ('São Paulo', 'SP', 'Rua das Letras', '01234567', '1234', 'Sala 10'),
