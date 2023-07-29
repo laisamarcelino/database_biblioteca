@@ -89,3 +89,12 @@ values ('São Paulo', 'SP', 'Rua das Letras', '01234567', '1234', 'Sala 10'),
        ('Salvador', 'BA', 'Avenida dos Escritores', '40000987', '1234', 'Andar 6'),
        ('Fortaleza', 'CE', 'Travessa dos Poetas', '60000543', '4321', 'Conjunto B'),
        ('Recife', 'PE', 'Alameda dos Autores', '50000321', '987', 'Bloco A');
+
+insert into editora (nome, data_criacao, quant_livros_publicados, id_endereco_fk)
+values ('Editora Brasileira A', '1990-02-15', 50, 1),
+       ('Editora Brasil Livros', '1985-06-30', 80, 2),
+       ('Livros do Brasil', '2000-11-25', 30, 3),
+       ('Editora Nacional', '1978-12-10', 120, 4),
+       ('Edições Brasileiras', '2005-08-20', 65, 5),
+       ('Livros Nacionais', '1995-12-03', 90, 6),
+       ('Editora Nacional Brasil', '2010-05-05', 55, 7);
