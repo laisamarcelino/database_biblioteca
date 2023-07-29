@@ -128,3 +128,13 @@ values ('João Silva', '12345678900', '1990-05-15', 'joao.silva@example.com', 's
        ('Julia Rodrigues', '44455566677', '1993-12-30', 'julia.rodrigues@example.com', 'senha345'),
        ('Rafael Almeida', '22233344455', '1991-09-18', 'rafael.almeida@example.com', 'senha543'),
        ('Rafaela Lima', '12547815687', '1992-10-15', 'rafaela.lima@example.com', 'senha883');
+
+insert into emprestimo (data_emprestimo, data_devolucao, id_livro_fk, id_usuario_fk)
+values  ('2023-07-29', '2023-08-10', 1, 1),
+        ('2023-08-02', '2023-08-15', 2, 2),
+        ('2023-08-05', '2023-08-20', 3, 3),
+        ('2023-08-08', '2023-08-22', 4, 4),
+        ('2023-08-12', '2023-08-25', 5, 5),
+        ('2023-08-15', '2023-08-28', 6, 6),
+        ('2023-08-18', '2023-08-25', 7, 7),
+        ('2023-09-20', '2023-09-26', 8, 8);
