@@ -118,3 +118,13 @@ values ('Harry Potter e a Pedra Filosofal', '1997-06-26', 223, 'Fantasia', 1, 1)
        ('Cem Anos de Solidão', '1967-05-30', 417, 'Realismo mágico', 6,6),
        ('Poesias Completas de Emily Dickinson', '1890-01-01', 320, 'Poesia', 7,7),
        ('Norwegian Wood', '1987-09-04', 389, 'Ficção contemporânea', 8, 5);
+
+insert into usuarios (nome, cpf, nascimento, email, senha)
+values ('João Silva', '12345678900', '1990-05-15', 'joao.silva@example.com', 'senha123'),
+       ('Maria Oliveira', '98765432100', '1985-08-25', 'maria.oliveira@example.com', 'senha456'),
+       ('Pedro Santos', '11122233344', '1995-02-10', 'pedro.santos@example.com', 'senha789'),
+       ('Ana Souza', '55566677788', '1982-11-20', 'ana.souza@example.com', 'senha1bc'),
+       ('Lucas Pereira', '99988877766', '1998-07-05', 'lucas.pereira@example.com', 'senha8yz'),
+       ('Julia Rodrigues', '44455566677', '1993-12-30', 'julia.rodrigues@example.com', 'senha345'),
+       ('Rafael Almeida', '22233344455', '1991-09-18', 'rafael.almeida@example.com', 'senha543'),
+       ('Rafaela Lima', '12547815687', '1992-10-15', 'rafaela.lima@example.com', 'senha883');
