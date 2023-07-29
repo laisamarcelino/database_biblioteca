@@ -108,3 +108,13 @@ values ('J.K. Rowling', '1965-07-31', 14, 'Fantasia'),
        ('Gabriel García Márquez', '1927-03-06', 12, 'Realismo mágico'),
        ('Emily Dickinson', '1830-12-10', 0, 'Poesia'),
 	   ('Haruki Murakami', '1949-01-12', 23, 'Ficção contemporânea');
+
+insert into livros (titulo, data_publicacao, numero_pags, genero, id_autores_fk, id_editora_fk)
+values ('Harry Potter e a Pedra Filosofal', '1997-06-26', 223, 'Fantasia', 1, 1),
+       ('A Guerra dos Tronos', '1996-08-01', 704, 'Fantasia épica', 2, 2),
+       ('Assassinato no Expresso Oriente', '1934-01-01', 256, 'Mistério', 3,3),
+       ('O Iluminado', '1977-01-28', 447, 'Terror', 4,4),
+       ('Orgulho e Preconceito', '1813-01-28', 432, 'Romance', 5,5),
+       ('Cem Anos de Solidão', '1967-05-30', 417, 'Realismo mágico', 6,6),
+       ('Poesias Completas de Emily Dickinson', '1890-01-01', 320, 'Poesia', 7,7),
+       ('Norwegian Wood', '1987-09-04', 389, 'Ficção contemporânea', 8, 5);
