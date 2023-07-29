@@ -98,3 +98,13 @@ values ('Editora Brasileira A', '1990-02-15', 50, 1),
        ('Edições Brasileiras', '2005-08-20', 65, 5),
        ('Livros Nacionais', '1995-12-03', 90, 6),
        ('Editora Nacional Brasil', '2010-05-05', 55, 7);
+
+insert into autores (nome, data_nascimento, quant_livros_publicados, genero_escrita)
+values ('J.K. Rowling', '1965-07-31', 14, 'Fantasia'),
+	   ('George R.R. Martin', '1948-09-20', 9, 'Fantasia épica'),
+	   ('Agatha Christie', '1890-09-15', 66, 'Mistério'),
+	   ('Stephen King', '1947-09-21', 61, 'Terror'),
+       ('Jane Austen', '1775-12-16', 6, 'Romance'),
+       ('Gabriel García Márquez', '1927-03-06', 12, 'Realismo mágico'),
+       ('Emily Dickinson', '1830-12-10', 0, 'Poesia'),
+	   ('Haruki Murakami', '1949-01-12', 23, 'Ficção contemporânea');
